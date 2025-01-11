@@ -14,7 +14,7 @@ const TabLayout = () => {
       }}
     >
       <Tabs.Screen
-        name="(ticket)"
+        name="(home)"
         options={{ title: '홈', tabBarIcon: ({ color }) => <IconSmartHome color={color} /> }}
       />
       <Tabs.Screen
@@ -22,7 +22,7 @@ const TabLayout = () => {
         options={{ title: '검색', tabBarIcon: ({ color }) => <IconSearch color={color} /> }}
       />
       <Tabs.Screen
-        name="(mypage)"
+        name="(my-ticket)"
         options={{ title: '마이티켓', tabBarIcon: ({ color }) => <IconTicket color={color} /> }}
       />
       <Tabs.Screen

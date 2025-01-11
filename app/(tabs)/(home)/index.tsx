@@ -11,11 +11,11 @@ export default function Index() {
     <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
       <WebView
         source={{
-          uri: `${PUBLIC_API_URI}/ticket/detail`,
+          uri: `${PUBLIC_API_URI}/`,
         }}
         onNavigationStateChange={e => {
-          if (e.url.includes('profile')) {
-            router.push('/(tabs)/(mypage)')
+          if (e.url.includes('my-ticket')) {
+            router.push('/(tabs)/(my-ticket)')
           }
         }}
       />
