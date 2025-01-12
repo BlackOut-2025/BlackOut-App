@@ -9,6 +9,7 @@ const TabLayout = () => {
       screenOptions={{
         headerShown: false,
         animation: 'shift',
+        tabBarStyle: { backgroundColor: '#F6F6F6', paddingTop: 12 },
         tabBarActiveTintColor: '#212529',
         tabBarInactiveTintColor: '#ADB5BD',
       }}

@@ -8,7 +8,10 @@ export default function Index() {
   const router = useRouter()
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: 'white' }}>
+    <SafeAreaView
+      style={{ flex: 1, backgroundColor: '#F6F6F6' }}
+      edges={['top', 'left', 'right']} // bottom 제외
+    >
       <WebView
         source={{
           uri: `${PUBLIC_API_URI}/`,
